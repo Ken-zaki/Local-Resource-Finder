@@ -2,50 +2,19 @@
 
 ## I. Overview
 
-This project is a **Local Resource Finder** designed to help users locate valuable resources in their area. Users can register, log in, and search for resources based on predefined categories. Admins, on the other hand, have additional privileges to update the resource list by adding or removing entries based on availability.
-
-### Features:
-- **User Functionality:**
-  - Register and log in to explore resources.
-  - View available resources by category.
-- **Admin Functionality:**
-  - Update resources: Add new resources or remove unavailable ones.
-  - Ensure the information stays relevant and accurate.
-
+  **This project is a local resource finder wherein intended to find a good resources founnd around the area and where it located, this project have a user where all users need to register first and they can now find resources based on the category given and it will show the available resources on that given category. on the other side i made an admin to update the resources, for example is that the resources is not available so they can remove the resources information , and also they can add the resources again if its available again.
+  
 ---
 
 ## II. Object-Oriented Programming (OOP) Principles
 
-This project makes significant use of **OOP principles**:
-
-### 1. **Encapsulation**  
-- **Purpose:** Restricts direct access to object properties.
-- **Implementation:**  
-  - Private fields in `Account.java` and `Resource.java`.
-  - Public getter and setter methods for controlled access.
-
-### 2. **Inheritance**  
-- **Purpose:** Allows a class to reuse properties and methods of another class.  
-- **Implementation:**  
-  - `User` and `Admin` classes extend the abstract `Account` class.
-  - Both `User` and `Admin` override the `displayMenu()` method.
-
-### 3. **Polymorphism**  
-- **Purpose:** Enables a single interface to handle different data types or classes.  
-- **Implementation:**  
-  - Overridden `displayMenu()` in `User` and `Admin` for customized behavior.
-  - Usage of the `instanceof` operator in `Main.java` to differentiate between user roles.
-
-### 4. **Abstraction**  
-- **Purpose:** Hides implementation details and shows only essential features.  
-- **Implementation:**  
-  - The abstract class `Account` defines a structure with `username`, `password`, and an abstract `displayMenu()` method for subclasses to implement.
+**In this project OOP principle have a significant use to work this project.By using encapsulation using private in account.java and resource.java is restrict the direct access to some of an objects and it will be accessed or modify by using public getter methods. By using inheritance it allows a class to acquire the properties and methods to anotherclass by using extends on the user and admin to inherit from the abstract class account.java, and both classes user and admin override the display menu method from the parent class account. By using polymorphism i used it a lot, example in displayMenu() overriden both user and admin class to provide the specific implementation from parent class, the other one is using instanceof operator in main.java to check if the user is admin or user. lastly by using abstraction focus on exposing only essential details and hiding implimentation details, as example is i used it in account.java i declared as abstract it provide a common structure (username, password) and a method signature abstract void displayMenu() for subclasses but defer implementation to them.
 
 ---
 
 ## III. Details of the Chosen SDG
 
-This project aligns with **Sustainable Development Goal (SDG) 11: Sustainable Cities and Communities**, as it helps provide crucial information to community members about local resources.  
+This project aligns with **Sustainable Development Goal (SDG) 11: Sustainable Cities and Communities**, as it helps provide crucial information to local community members about local resources.  
 
 ### Additional SDGs Addressed:
 - **Goal 3:** Good Health and Well-Being (Healthcare resources).
@@ -61,32 +30,20 @@ This project aligns with **Sustainable Development Goal (SDG) 11: Sustainable Ci
 - Follow on-screen prompts for entering information.
 
 ### **For Users:**
-1. **Register and Log In:**
-   - Create an account to start using the system.
-2. **View Categories:**
-   - Select a category to view available resources.
-3. **Log Out:**
-   - Choose option `2` in the menu to return to the main screen.
+  - REGISTER AND LOGIN
+  - AFETR LOGIN THERES A CHOICES ONLY TO VIEW THE CATEGORY
+  - CHOOSE THE DESIRE CATEGORY
+  - IT WILL SHOW ALL THE AVAILABLE INFORMATION IN THAT CATEGORY
+  - IF YOU WANT TO LOGOUT CHOOSE 2 AND YOU WILL BE BACK TO MAIN MENU
 
 ### **For Admins:**
-1. **Register with Admin Privileges:**
-   - Use a password containing `@` to register as an admin.
-2. **Log In:**
-   - Enter your admin username and password (with `@`).
-3. **Manage Resources:**
-   - **Add Resources:** Choose option `1` and fill in the details.
-   - **Remove Resources:** Choose option `2` and enter the name of the resource to remove.
-   - **View Resources:** Choose option `3` and select a category to view.
-4. **Log Out:**
-   - Choose option `4` to return to the main screen.
+  - REGISTER THE PASSWORD MUST HAVE @ AS A SIGN AS ADMIN WILL BE RESGISTER
+  - LOGIN BY USING YOUR USERNAME AND PASSWORD WITH @ ON IT
+  - THERES A CHOICES ADD, REMOVE AND VIEW 
+  - IF YOU WANT TO ADD, CHOOSE 1 THEN FILL THE INFORMATION NEEDED
+  - IF YOU WANT TO REMOVE, CHOOSE 2 THEN FILL THE NAME YOU WANT TO REMOVE
+  - IF YOU WANT TO VIEW, CHOOSE 3 THEN SELECT YOU WANT CATEGORY TO VIEW
+  - IF YOU WANT TO LOGOUT CHOOSE 4 AND YOU WILL BE BACK TO MAIN MENU
 
----
-
-## V. Future Improvements
-- Enhance UI/UX with graphical interfaces.
-- Add search functionality for faster resource retrieval.
-- Enable multi-user sessions with role-based access control.
-
----
 
 **Thank you for exploring the Local Resource Finder!**
