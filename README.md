@@ -30,6 +30,7 @@ This project aligns with **Sustainable Development Goal (SDG) 11: Sustainable Ci
 - Follow on-screen prompts for entering information.
 
 ### **For Users:**
+
 - REGISTER AND LOGIN
 - AFETR LOGIN THERES A CHOICES ONLY TO VIEW THE CATEGORY
 - CHOOSE THE DESIRE CATEGORY
@@ -37,6 +38,7 @@ This project aligns with **Sustainable Development Goal (SDG) 11: Sustainable Ci
 - IF YOU WANT TO LOGOUT CHOOSE 2 AND YOU WILL BE BACK TO MAIN MENU
 
 ### **For Admins:**
+
 - REGISTER THE PASSWORD MUST HAVE @ AS A SIGN AS ADMIN WILL BE RESGISTER
 - LOGIN BY USING YOUR USERNAME AND PASSWORD WITH @ ON IT
 - THERES A CHOICES ADD, REMOVE AND VIEW 
