@@ -3,23 +3,18 @@
 ## I. Overview
 
 - This project is a local resource finder wherein intended to find a good resources founnd around the area and where it located, this project have a user where all users need to register first and they can now find resources based on the category given and it will show the available resources on that given category. on the other side i made an admin to update the resources, for example is that the resources is not available so they can remove the resources information , and also they can add the resources again if its available again.
-  
+
 ---
 
 ## II. Object-Oriented Programming (OOP) Principles
 
 - In this project OOP principle have a significant use to work this project.By using encapsulation using private in account.java and resource.java is restrict the direct access to some of an objects and it will be accessed or modify by using public getter methods. By using inheritance it allows a class to acquire the properties and methods to anotherclass by using extends on the user and admin to inherit from the abstract class account.java, and both classes user and admin override the display menu method from the parent class account. By using polymorphism i used it a lot, example in displayMenu() overriden both user and admin class to provide the specific implementation from parent class, the other one is using instanceof operator in main.java to check if the user is admin or user. lastly by using abstraction focus on exposing only essential details and hiding implimentation details, as example is i used it in account.java i declared as abstract it provide a common structure (username, password) and a method signature abstract void displayMenu() for subclasses but defer implementation to them.
-
+  
 ---
 
 ## III. Details of the Chosen SDG
 
-This project aligns with **Sustainable Development Goal (SDG) 11: Sustainable Cities and Communities**, as it helps provide crucial information to local community members about local resources.  
-
-### Additional SDGs Addressed:
-- **Goal 3:** Good Health and Well-Being (Healthcare resources).
-- **Goal 4:** Quality Education (Educational resources).
-- **Goal 12:** Responsible Consumption and Production (Food and transportation resources).
+This project align in GOAL 11 sustainable cities and community, it support given to provide necessary needs of the community and also give the information to the people that they have a organization that they can rely on. This project also align to other SDG such as GOAL 3, GOAL 4, and GOAL 12.
 
 ---
 
