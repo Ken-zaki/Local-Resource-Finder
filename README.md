@@ -49,20 +49,20 @@ It also aligns with other SDGs 🌟:
 
 ### **For Users** 👥:  
 
-1️⃣ **REGISTER AND LOGIN** 📝  
-2️⃣ After logging in, **choose a category** 📂 from the available options.  
-3️⃣ The program will display all available resources 🗂️ in that category.  
-4️⃣ To **logout**, choose option 2️⃣, and you'll return to the main menu 🔙.  
+🔴 **REGISTER AND LOGIN** 📝  
+🔴 After logging in, **choose a category** 📂 from the available options.  
+🔴 The program will display all available resources 🗂️ in that category.  
+🔴 To **logout**, choose option 2️⃣, and you'll return to the main menu 🔙.  
 
 ### **For Admins** 🛠️:  
 
-1️⃣ Register using a **password containing `@`** 🛡️ to identify as an admin.  
-2️⃣ Login using your admin credentials 🔑.  
-3️⃣ Admin menu options:  
+🟢 Register using a **password containing `@`** 🛡️ to identify as an admin.  
+🟢 Login using your admin credentials 🔑.  
+🟢 Admin menu options:  
    - **Add Resource** ➕: Choose 1️⃣, then fill out the required information 🖊️.  
    - **Remove Resource** ➖: Choose 2️⃣, then specify the resource to remove 🗑️.  
    - **View Resources** 👁️: Choose 3️⃣, then select a category to view 📋.  
-4️⃣ To logout, choose option 4️⃣ and return to the main menu 🔙.  
+🟢 To logout, choose option 4️⃣ and return to the main menu 🔙.  
 
 ---
 
