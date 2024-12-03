@@ -8,7 +8,20 @@
 
 ## II. Object-Oriented Programming (OOP) Principles
 
-- In this project OOP principle have a significant use to work this project.By using encapsulation using private in account.java and resource.java is restrict the direct access to some of an objects and it will be accessed or modify by using public getter methods. By using inheritance it allows a class to acquire the properties and methods to anotherclass by using extends on the user and admin to inherit from the abstract class account.java, and both classes user and admin override the display menu method from the parent class account. By using polymorphism i used it a lot, example in displayMenu() overriden both user and admin class to provide the specific implementation from parent class, the other one is using instanceof operator in main.java to check if the user is admin or user. lastly by using abstraction focus on exposing only essential details and hiding implimentation details, as example is i used it in account.java i declared as abstract it provide a common structure (username, password) and a method signature abstract void displayMenu() for subclasses but defer implementation to them.
+ **Encapsulation**
+     -Encapsulation is achieved by using private access modifiers in Account.java and Resource.java.
+     -This restricts direct access to the properties of these classes.
+     -The data can only be accessed or modified through public getter methods, ensuring better control and security.
+ **Inheritance**
+     -The User and Admin classes inherit from the abstract class Account.java using the extends keyword.
+     -Both subclasses override the displayMenu() method to provide their specific implementations.
+ **Abstraction**
+     -The Account.java class is declared as abstract.
+     -It provides a common structure (e.g., username, password) and declares an abstract method displayMenu().
+     -The implementation of displayMenu() is deferred to the subclasses User and Admin.
+ **Polymorphism**
+     -The displayMenu() method in Account is overridden in User and Admin classes to provide unique functionality.
+     -The instanceof operator in Main.java is used to check whether a given object is of type User or Admin. This determines the behavior dynamically at runtime.
   
 ---
 
