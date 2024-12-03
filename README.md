@@ -1,59 +1,69 @@
-# Local Resource Finder
+# 🌍 Local Resource Finder 🗺️  
 
-## I. Overview
+## I. Overview 📋
 
-- This project is a local resource finder wherein intended to find a good resources founnd around the area and where it located, this project have a user where all users need to register first and they can now find resources based on the category given and it will show the available resources on that given category. on the other side i made an admin to update the resources, for example is that the resources is not available so they can remove the resources information , and also they can add the resources again if its available again.
+This project is a **Local Resource Finder** 🎯 intended to help users locate valuable resources 🏗️ around their area 🏡 and find out where they're located 📍.
 
----
-
-## II. Object-Oriented Programming (OOP) Principles
-
- **Encapsulation**
-     -Encapsulation is achieved by using private access modifiers in Account.java and Resource.java.
-     -This restricts direct access to the properties of these classes.
-     -The data can only be accessed or modified through public getter methods, ensuring better control and security.
- **Inheritance**
-     -The User and Admin classes inherit from the abstract class Account.java using the extends keyword.
-     -Both subclasses override the displayMenu() method to provide their specific implementations.
- **Abstraction**
-     -The Account.java class is declared as abstract.
-     -It provides a common structure (e.g., username, password) and declares an abstract method displayMenu().
-     -The implementation of displayMenu() is deferred to the subclasses User and Admin.
- **Polymorphism**
-     -The displayMenu() method in Account is overridden in User and Admin classes to provide unique functionality.
-     -The instanceof operator in Main.java is used to check whether a given object is of type User or Admin. This determines the behavior dynamically at runtime.
-  
----
-
-## III. Details of the Chosen SDG
-
-This project align in GOAL 11 sustainable cities and community, it support given to provide necessary needs of the community and also give the information to the people that they have a organization that they can rely on. This project also align to other SDG such as GOAL 3, GOAL 4, and GOAL 12.
+- **For Users** 👥: All users must **register first** 📝, and after that, they can find resources 🔍 based on the categories provided 📑. The program will display the **available resources** 📜 within the selected category.  
+- **For Admins** 🛠️: Admins can update resources 🖊️ — for example, remove resources 🗑️ when unavailable or re-add them 🔄 when they become available again.
 
 ---
 
-## IV. Instructions for Running the Program
+## II. Object-Oriented Programming (OOP) Principles 🧑‍💻  
 
-### General Instructions
-- Navigate the program by selecting options with the corresponding number.
-- Follow on-screen prompts for entering information.
+### **Encapsulation** 🔒  
+- Achieved by using **private** access modifiers in `Account.java` and `Resource.java`.  
+- This restricts 🔐 direct access to the properties of these classes.  
+- Data is accessed or modified using **public getter and setter methods** 🛡️, ensuring better control and security.  
 
-### **For Users:**
+### **Inheritance** 🧬  
+- The `User` 👤 and `Admin` 🛠️ classes inherit from the **abstract class** `Account.java` using the `extends` keyword 📂.  
+- Both subclasses **override** 🔄 the `displayMenu()` method to provide their specific implementations 🎨.  
 
-    - REGISTER AND LOGIN
-    - AFETR LOGIN THERES A CHOICES ONLY TO VIEW THE CATEGORY
-    - CHOOSE THE DESIRE CATEGORY
-    - IT WILL SHOW ALL THE AVAILABLE INFORMATION IN THAT CATEGORY
-    - IF YOU WANT TO LOGOUT CHOOSE 2 AND YOU WILL BE BACK TO MAIN MENU
+### **Abstraction** 🧩  
+- The `Account.java` class is declared as **abstract** 📄.  
+- It provides a common structure (`username`, `password`) 🗝️ and declares an **abstract method** `displayMenu()` 📜.  
+- Subclasses (`User` 👥 and `Admin` 🛠️) provide their **unique implementation** of `displayMenu()` 🎯.  
 
-### **For Admins:**
+### **Polymorphism** 🌀  
+- The `displayMenu()` method in `Account` is **overridden** in `User` and `Admin` classes for specific functionalities ⚙️.  
+- The `instanceof` operator in `Main.java` is used to check whether an object belongs to `User` or `Admin` 🔎, allowing behavior to change dynamically 💡.  
 
-    - REGISTER THE PASSWORD MUST HAVE @ AS A SIGN AS ADMIN WILL BE RESGISTER
-    - LOGIN BY USING YOUR USERNAME AND PASSWORD WITH @ ON IT
-    - THERES A CHOICES ADD, REMOVE AND VIEW 
-    - IF YOU WANT TO ADD, CHOOSE 1 THEN FILL THE INFORMATION NEEDED
-    - IF YOU WANT TO REMOVE, CHOOSE 2 THEN FILL THE NAME YOU WANT TO REMOVE
-    - IF YOU WANT TO VIEW, CHOOSE 3 THEN SELECT YOU WANT CATEGORY TO VIEW
-    - IF YOU WANT TO LOGOUT CHOOSE 4 AND YOU WILL BE BACK TO MAIN MENU
+---
 
+## III. Details of the Chosen SDG 🌱  
 
-**Thank you for exploring the Local Resource Finder!**
+This project aligns with **GOAL 11: Sustainable Cities and Communities** 🏙️, supporting efforts to provide essential community needs 🏡 and ensuring accessible information ℹ️.  
+It also aligns with other SDGs 🌟:  
+- **GOAL 3: Good Health and Well-being** 🏥  
+- **GOAL 4: Quality Education** 📚  
+- **GOAL 12: Responsible Consumption and Production** ♻️  
+
+---
+
+## IV. Instructions for Running the Program 🖥️  
+
+### General Instructions 🛠️  
+- **Navigate the program** by selecting options with the corresponding number 🔢.  
+- Follow the **on-screen prompts** 📖 for entering information.  
+
+### **For Users** 👥:  
+
+1️⃣ **REGISTER AND LOGIN** 📝  
+2️⃣ After logging in, **choose a category** 📂 from the available options.  
+3️⃣ The program will display all available resources 🗂️ in that category.  
+4️⃣ To **logout**, choose option 2️⃣, and you'll return to the main menu 🔙.  
+
+### **For Admins** 🛠️:  
+
+1️⃣ Register using a **password containing `@`** 🛡️ to identify as an admin.  
+2️⃣ Login using your admin credentials 🔑.  
+3️⃣ Admin menu options:  
+   - **Add Resource** ➕: Choose 1️⃣, then fill out the required information 🖊️.  
+   - **Remove Resource** ➖: Choose 2️⃣, then specify the resource to remove 🗑️.  
+   - **View Resources** 👁️: Choose 3️⃣, then select a category to view 📋.  
+4️⃣ To logout, choose option 4️⃣ and return to the main menu 🔙.  
+
+---
+
+**🎉 Thank you for exploring the Local Resource Finder! 🌟 We hope it helps you connect with the resources you need. 🛠️🌿**
