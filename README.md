@@ -60,7 +60,7 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 ```java
     public abstract class Account
 ```
-**displauMenu()**
+**displayMenu()**
 ```java
     public abstract void displayMenu();
 ```
