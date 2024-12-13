@@ -25,15 +25,15 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 
 **Account.java**
 
-      private String username;
-      private String password;
+    private String username;
+    private String password;
 
 **Resource.java**
 
-      private String category; 
-      private String name;
-      private String location;
-      private String details;
+    private String category; 
+    private String name;
+    private String location;
+    private String details;
 
 ### **Inheritance** 🧬  
 - The `User` 👤 and `Admin` 🛠️ classes inherit from the **abstract class** `Account.java` using the `extends` keyword 📂.  
@@ -41,13 +41,13 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 
 **Account.java**
 
-         public abstract class Account
+    public abstract class Account
 **Using extends** 
 
-         //user
-         class User extends Account
-         //admin
-         class Admin extends Account
+    //user
+    class User extends Account
+    //admin
+    class Admin extends Account
 
 ### **Abstraction** 🧩  
 - The `Account.java` class is declared as **abstract** 📄.  
@@ -56,11 +56,11 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 
 **Account.java** 
 
-      public abstract class Account
+    public abstract class Account
 
 **displauMenu()**
 
-      public abstract void displayMenu();
+    public abstract void displayMenu();
 ### **Polymorphism** 🌀  
 - The `displayMenu()` method in `Account` is **overridden** in `User` and `Admin` classes for specific functionalities ⚙️.  
 - The `instanceof` operator in `Main.java` is used to check whether an object belongs to `User` or `Admin` 🔎, allowing behavior to change dynamically 💡.  
