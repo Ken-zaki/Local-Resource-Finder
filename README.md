@@ -23,19 +23,79 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 - This restricts 🔐 direct access to the properties of these classes.  
 - Data is accessed or modified using **public getter and setter methods** 🛡️, ensuring better control and security.  
 
+**Account.java**
+
+      private String username;
+      private String password;
+
+**Resource.java**
+
+      private String category; 
+      private String name;
+      private String location;
+      private String details;
+
 ### **Inheritance** 🧬  
 - The `User` 👤 and `Admin` 🛠️ classes inherit from the **abstract class** `Account.java` using the `extends` keyword 📂.  
 - Both subclasses **override** 🔄 the `displayMenu()` method to provide their specific implementations 🎨.  
+
+**Account.java**
+
+         public abstract class Account
+**Using extends** 
+
+         //user
+         class User extends Account
+         //admin
+         class Admin extends Account
 
 ### **Abstraction** 🧩  
 - The `Account.java` class is declared as **abstract** 📄.  
 - It provides a common structure (`username`, `password`) 🗝️ and declares an **abstract method** `displayMenu()` 📜.  
 - Subclasses (`User` 👥 and `Admin` 🛠️) provide their **unique implementation** of `displayMenu()` 🎯.  
 
+**Account.java** 
+
+      public abstract class Account
+
+**displauMenu()**
+
+      public abstract void displayMenu();
 ### **Polymorphism** 🌀  
 - The `displayMenu()` method in `Account` is **overridden** in `User` and `Admin` classes for specific functionalities ⚙️.  
 - The `instanceof` operator in `Main.java` is used to check whether an object belongs to `User` or `Admin` 🔎, allowing behavior to change dynamically 💡.  
 
+**Account.java**
+
+         class User extends Account { 
+
+            public User(String username, String password) {
+                  super(username, password); 
+            }
+            @Override
+            public void displayMenu() {
+                  System.out.printf("User");
+            }
+         }
+
+         class Admin extends Account {
+            
+            public Admin(String username, String password) {
+               super(username, password);
+            }
+            @Override
+            public void displayMenu() {
+               System.out.printf("Admin");
+            }
+         } 
+
+**Main.java**
+
+      if (accounts[i] instanceof User){ 
+            userMenu((User) accounts[i]);
+      } else if (accounts[i] instanceof Admin) {
+            adminMenu((Admin) accounts[i]);
+      }
 ---
 
 ## III. Details of the Chosen SDG 🌱  
