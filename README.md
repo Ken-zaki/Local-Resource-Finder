@@ -24,9 +24,10 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 - Data is accessed or modified using **public getter and setter methods** 🛡️, ensuring better control and security.  
 
 **Account.java**
-
-    private String username;
-    private String password;
+```java
+   private String username;
+   private String password;
+```
 
 **Resource.java**
 
