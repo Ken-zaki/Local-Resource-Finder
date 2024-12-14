@@ -118,22 +118,41 @@ It also aligns with other SDGs 🌟:
 - **Navigate the program** by selecting options with the corresponding number 🔢.  
 - Follow the **on-screen prompts** 📖 for entering information.  
 
-### **For Users** 👥:  
+## How It Works 🌐
 
-🔴 **REGISTER AND LOGIN** 📝  
-🔴 After logging in, **choose a category** 📂 from the available options.  
-🔴 The program will display all available resources 🗂️ in that category.  
-🔴 To **logout**, choose option 2️⃣, and you'll return to the main menu 🔙.  
+1. **Login/Register**:
+   Users can log in with existing accounts or register a new account. Role assignments:
+   - Passwords with "@" = Admin.
+   - All other passwords = User.
 
-### **For Admins** 🛠️:  
+2. **User Menu**:
+   - View resources in specific categories.
+   - Logout when done.
 
-🟢 Register using a **password containing `@`** 🛡️ to identify as an admin.  
-🟢 Login using your admin credentials 🔑.  
-🟢 Admin menu options:  
-   - **Add Resource** ➕: Choose 1️⃣, then fill out the required information 🖊️.  
-   - **Remove Resource** ➖: Choose 2️⃣, then specify the resource to remove 🗑️.  
-   - **View Resources** 👁️: Choose 3️⃣, then select a category to view 📋.  
-🟢 To logout, choose option 4️⃣ and return to the main menu 🔙.  
+3. **Admin Menu**:
+   - Add resources with details like name, location, and category.
+   - Remove resources by name.
+   - View resources in any category.
+
+---
+
+## How to Use the Program 🕹️
+
+Below is an illustration of how to use the program.
+
+## User
+
+![How to Use](https://github.com/user-attachments/assets/4cb9e40e-cf10-4d02-89f4-4ef310e00f40)
+![How to Use](https://github.com/user-attachments/assets/dfc272c5-ba24-449f-a89c-a684adbdee0d)
+![How to Use](https://github.com/user-attachments/assets/f9b0a233-3e97-4e5e-9ee5-0b83d3a432b9)
+
+## Admin
+
+![How to Use](https://github.com/user-attachments/assets/cee1f233-2973-4c6a-a402-ebaf386fa872)
+![adui](https://github.com/user-attachments/assets/8b5e1eba-422a-4014-9e23-4a826c51e5ee)
+![adaddre](https://github.com/user-attachments/assets/63c93b43-3920-4499-a5ee-f0b98a526933)
+![lookafteradd](https://github.com/user-attachments/assets/6795b199-3a93-4dc6-9279-683f12eb9997)
+![revad](https://github.com/user-attachments/assets/6e265f3f-b57a-4203-ad9c-68729d8fc39c) 
 
 ---
 
