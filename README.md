@@ -42,14 +42,14 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 
 **Account.java**
 ```java
-    public abstract class Account
+    public abstract class Account{}
 ```
 **Using extends** 
 ```java
     //user
-    class User extends Account
+    class User extends Account{}
     //admin
-    class Admin extends Account
+    class Admin extends Account{}
 ```
 ### **Abstraction** 🧩  
 - The `Account.java` class is declared as **abstract** 📄.  
@@ -58,7 +58,7 @@ This project is a **Local Resource Finder** 🎯 intended to help users locate v
 
 **Account.java** 
 ```java
-    public abstract class Account
+    public abstract class Account{}
 ```
 **displayMenu()**
 ```java
